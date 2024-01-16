@@ -1,0 +1,71 @@
+body {
+    background-color: darkgray
+}
+
+h1 {
+    border: 10px solid black;
+    color: cornflowerblue;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#game-form {
+    margin-bottom: 20px;
+}
+
+#game-form input[type="text"] {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#output ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#output li {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.edit-button, .delete-button {
+    margin-left: 10px;
+}
+
+#game-form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 5px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+}
+
+#game-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 5px solid #cccccc;
+}
+
+.edit-button, .delete-button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.edit-button {
+    background-color: #4CAF50; /* Green */
+}
+
+.delete-button {
+    background-color: #f44336; /* Red */
+}
